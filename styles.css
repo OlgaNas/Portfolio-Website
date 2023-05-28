@@ -28,7 +28,7 @@ header {
     height: 4.5rem;
 }
 
-main {
+#mainHome {
     display: flex;
     width: 90%;
     height: 90%;
@@ -69,6 +69,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
 }
 
 footer a {
@@ -84,4 +86,105 @@ a:hover {
 
 a:active {
     color: #FB8604;
+}
+
+/* For Projects */
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(#F1E6EB, #E3CED7);
+    /* background-color: linear-gradient(#F1E6EB, #E3CED7); */
+}
+
+
+.project img {
+    max-width: 20rem;
+    max-height: 25rem;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project ul {
+    list-style-type: circle;
+}
+
+.project {
+    line-height: 1.5rem;
+}
+
+.project figcaption a {
+    color: #730C39;
+}
+
+.project figcaption {
+    text-align: center;
+}
+
+.project figcaption a:hover {
+    color: silver;
+}
+
+.project figcaption a:active {
+    color: #FB8604;
+}
+
+#projects h1 {
+    font-size: 3rem;
+    color: #730C39;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* About */
+#about {
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#about p {
+    color: #0A6E75;
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about h1 {
+    color: #730C39;
+
+}
+
+
+#about button {
+    display: inline-block;
+    background-color: #730C39;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 2rem;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#about button:hover {
+    color: silver;
+}
+
+#about button:active {
+    background-color: #5C092D;
+    box-shadow: none;
 }
